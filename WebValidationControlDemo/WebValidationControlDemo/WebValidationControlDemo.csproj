@@ -98,6 +98,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmCompareValidator.aspx" />
+    <Content Include="FrmRegularExpressionValidator.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -125,6 +127,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCompareValidator.aspx.cs">
+      <DependentUpon>FrmCompareValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCompareValidator.aspx.designer.cs">
+      <DependentUpon>FrmCompareValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegularExpressionValidator.aspx.cs">
+      <DependentUpon>FrmRegularExpressionValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRegularExpressionValidator.aspx.designer.cs">
+      <DependentUpon>FrmRegularExpressionValidator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmRequiredFieldValidator.aspx.cs">
       <DependentUpon>FrmRequiredFieldValidator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
