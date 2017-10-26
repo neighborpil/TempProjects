@@ -99,7 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FrmCompareValidator.aspx" />
+    <Content Include="FrmCustomValidator.aspx" />
     <Content Include="FrmRegularExpressionValidator.aspx" />
+    <Content Include="FrmValidationSummary.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -134,6 +136,13 @@
     <Compile Include="FrmCompareValidator.aspx.designer.cs">
       <DependentUpon>FrmCompareValidator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmCustomValidator.aspx.cs">
+      <DependentUpon>FrmCustomValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCustomValidator.aspx.designer.cs">
+      <DependentUpon>FrmCustomValidator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmRegularExpressionValidator.aspx.cs">
       <DependentUpon>FrmRegularExpressionValidator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -154,6 +163,13 @@
     </Compile>
     <Compile Include="FrmValidationControl.aspx.designer.cs">
       <DependentUpon>FrmValidationControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmValidationSummary.aspx.cs">
+      <DependentUpon>FrmValidationSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmValidationSummary.aspx.designer.cs">
+      <DependentUpon>FrmValidationSummary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
